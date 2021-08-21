@@ -2,7 +2,9 @@
     border: solid 1px red;
 } */
 
-
+:root{
+--highlight-color:#88c7c7;
+}
 
 body {
     /* box-sizing: border-box; */
@@ -12,6 +14,7 @@ body {
 }
 
 header {
+    
     display: flex;
     justify-content: space-between;
     background-image: url("./assets/images/grey_wash_wall.png");
@@ -19,9 +22,10 @@ header {
 }
 
 #name-heading {
+    color: #fff;
     display: flex;
     padding: 15px;
-    background-color: #05DFDF;
+    background-color: var(--highlight-color);
     margin-left: 0;
 }
 
@@ -145,13 +149,13 @@ nav ul li {
 }
 
 .vl {
-    border-right: 6px solid #05DFDF;
+    border-right: 6px solid var(--highlight-color);
     height: 80%;
 
 }
 
 .vlWork {
-    border-right: 6px solid #05DFDF;
+    border-right: 6px solid var(--highlight-color);
     height: 100%;
 
 }
@@ -160,11 +164,12 @@ nav ul li {
     height: 300px;
     display: flex;
     align-items: center;
-    border: solid 3px #05DFDF;
+    border: solid 3px var(--highlight-color);
 }
 
 .project-heading {
-    background-color: #05DFDF;
+    color:#fff;
+    background-color: var(--highlight-color);
     padding: 5px;
 }
 

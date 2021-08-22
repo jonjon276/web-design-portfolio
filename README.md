@@ -10,4 +10,4 @@ The purpose of this project was to make a responsive portfolio website based on 
 
 <h2>My reproduction</h2>
 
-<img src="./assets/images/application-screenshot.png">
+<img src="./assets/images/application-screenshot1.png">

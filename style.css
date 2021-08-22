@@ -1,6 +1,4 @@
-/* * {
-    border: solid 1px red;
-} */
+
 
 :root{
 --highlight-color:#88c7c7;
@@ -43,13 +41,16 @@ nav {
 
 }
 
-nav ul {}
+nav ul li a {
+    color: var(--highlight-color);
+}
 
 nav ul li {
     display: inline;
     margin: 5px;
     text-decoration: underline;
     font-size: 20px;
+    
 
 
 }
@@ -78,6 +79,8 @@ nav ul li {
     width: 67%;
     margin: 3%;
     padding-bottom: 2%;
+    font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 .contact-content {

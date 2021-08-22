@@ -63,7 +63,10 @@ nav ul li {
 }
 
 .subtitle h2 {
+    color: #fff;
     margin-right: 15px;
+    background-color: var(--highlight-color);
+    padding: 7px;
 }
 
 .content {
